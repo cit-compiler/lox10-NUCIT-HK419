@@ -173,7 +173,22 @@ java com.craftinginterpreters.lox.Lox <プログラム>
 
 [source,console]
 ----
-ここに、Loxを実行したときのコマンドライン、その動作結果をテキストで貼り付ける。
+C:\Users\winga\github-classroom\cit-compiler\lox01-NUCIT-HK419>loxrun.bat
+
+C:\Users\winga\github-classroom\cit-compiler\lox01-NUCIT-HK419>java codes.com.craftinginterpreters.lox.Lox
+> "hello \"  world"
+hello \"  world
+> (-123)*(45.67)
+(* (group (- 123.0)) (group 45.67))
+> 12-34
+(- 12.0 34.0)
+> 1-2-3-4-5
+(- (- (- (- 1.0 2.0) 3.0) 4.0) 5.0)
+> 20/5
+(/ 20.0 5.0)
+> "success"
+success
+>
 ----
 
 作成できたら、一度「lox01」をコミットしなさい。
